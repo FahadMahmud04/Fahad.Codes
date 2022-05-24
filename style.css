@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    /* font-family: 'Acme', sans-serif; */
+    font-family: 'Raleway', sans-serif !important;
+}
+
+header {
+    border: 1px solid blue;
+    box-sizing: border-box;
+    /* padding: 5px 10px; */
+}
+
+section {
+    border: 1px solid red;
+}
+div{
+    border: 1px solid black;
+}
+button{
+    cursor: pointer;
+}
+.btn{
+    padding: 15px 30px !important;
+    font-weight: 700 !important;
+    font-weight: 900 !important;
+}
+.link-btn {
+ 
+    background-color: #118511;
+    color: white;
+    border: 1px solid #118511;
+    box-shadow: 1.5px 1.5px 4px 2px rgb(54, 53, 53);
+    padding: 10px 20px;
+
+}
+
+.link-btn:hover {
+    border: 1px solid orange;
+    background-color: orange;
+    font-size: 12px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-menue li, button {
+    margin-left: 10px;
+    font-weight: 900;
+    margin-right: 35px;
+    border-bottom: 3px solid #1f971f;
+    padding: 10px;
+}
+.banner{
+  margin: 40px 10%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 20px;
+}
+.banner div{
+    margin: 10px;
+    padding: 20px 10px;
+}
+.banner-txt .demo-btn{
+color: #118511;
+    background-color: white;
+    border: 3px solid #118511;
+    
+}
+.banner-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-txt h1{
+    font-size: 50px;
+    margin: 10px;
+    font-weight: 900;
+}
