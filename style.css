@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+/* font-family: 'Acme', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    border: 1px solid blue;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+
+.link-btn{
+    padding: 10px 20px;
+    background-color: #1f971f;
+    color: white;
+    border: none;
+    box-shadow: 1.5px 1.5px 4px 2px rgb(54, 53, 53);
+    font-weight: bold;
+ 
+}
+.link-btn:hover{
+    background-color: orange;
+     font-size: 12px;
+} 
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-menue li{
+    margin-left : 10px;
+    font-weight: bold;
+}
