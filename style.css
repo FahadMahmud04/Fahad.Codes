@@ -100,7 +100,7 @@ transform: scaleX(-1);
 
 }
 .reach-content{
-    background-image: url('/images/recharge.jpg');
+    background-image: url('images/recharge.jpg');
     height: 500px;
     background-position: center ;
     background-size: cover;
