@@ -207,6 +207,9 @@ background-color: #caeac7;
     font-size: 30px;
 
 }
+.contact-section{
+    margin: 80px 0;
+}
 .contact-area{
     padding: 20px 20%;
 margin: 10px 0;
@@ -217,18 +220,35 @@ margin: 10px 0;
     font-weight:900;
     font-family:'sans-serif';
 }
-.contact-area a{
+.contact-area .contact-form a{
     background-color: #1b8f1b;
         color: white;
         font-weight: 800;
         margin: 0 10px;
         text-decoration: none;
-        padding: 15px 25px;
+        padding: 10px 20px;
         transition: 0.5s;
     }
     
-    .contact-area a:hover {
+    .contact-area .contact-form a:hover {
        
         background-color: #ca0098;
         color: rgb(255, 255, 255);
+}
+.contact-area p{
+    text-align: center;
+    font-size: 15px;
+    color: green;
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+}
+.contact-form input{
+    padding: 15px;
+    width: 250px;
+    margin: 0 20px ;
+    box-shadow: none;
+    border-radius: 5px;
+    border: 2px solid lightgray;
 }
