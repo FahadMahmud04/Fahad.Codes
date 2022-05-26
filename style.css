@@ -25,7 +25,7 @@ button{
     font-weight: 700 !important;
     font-weight: 900 !important;
 }
-.link-btn {
+.link-btn{
  
     background-color: #118511;
     color: white;
@@ -126,17 +126,109 @@ transform: scaleX(-1);
     color: #ffffff;
     font-family: 'Acme', sans-serif;
 }
-.service-section h1{
-    font-weight: 800;
+.service-section h1, .customer-section h1{
+    font-weight: 900;
+    font-size: 40px;
     text-align: center;
+    font-family: 'sans-serif';
 
 }
 .service-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 50px;
+    padding: 50px 15%;
+background-color: #caeac7;
 }
 .service-item img{
     width: 100%;
     
+}
+.service-item{
+    background-color: white;
+    box-shadow: 2px 2px 10px gray;
+}
+.service-text{
+    text-align: left;
+    font-family: 'Acme', sans-serif;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+.service-text a{
+    text-decoration: none;
+    color: #118511;
+        background-color: white;
+        border: 2px solid #118511;
+        padding: 10px 20px;      
+          font-weight: bold;
+}
+.customer-container{
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 50px 10%;
+
+}
+.customers1{
+    background-image: linear-gradient(rgb(0, 0, 0 ,0.2),rgb(0, 0, 0 ,0.6)), url('images/customers/customer1.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.customers2 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.6)), url('images/customers/customer2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.customers3 {
+    background-image:linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.6)),  url('images/customers/customer3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.customers1, .customers2, .customers3{
+    height: 250px;
+    color: #ffffff;
+    padding: 15px;
+    display: flex;
+ justify-content:baseline; 
+    align-items: flex-end;
+    
+
+}
+.customer h2, .customer h4{
+    margin: 5px 5px;
+
+}
+.customer h2{
+    font-size: 30px;
+
+}
+.contact-area{
+    padding: 20px 20%;
+margin: 10px 0;
+}
+.contact-area h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight:900;
+    font-family:'sans-serif';
+}
+.contact-area a{
+    background-color: #1b8f1b;
+        color: white;
+        font-weight: 800;
+        margin: 0 10px;
+        text-decoration: none;
+        padding: 15px 25px;
+        transition: 0.5s;
+    }
+    
+    .contact-area a:hover {
+       
+        background-color: #ca0098;
+        color: rgb(255, 255, 255);
 }
