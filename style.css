@@ -4,30 +4,31 @@ body {
     /* font-family: 'Acme', sans-serif; */
     font-family: 'Raleway', sans-serif !important;
 }
-
+/* header styles */
 header {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     box-sizing: border-box;
-    /* padding: 5px 10px; */
+
 }
 
 section {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     box-sizing: border-box !important;
 }
 div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     box-sizing: border-box !important;
 }
-.banner, .service-section, .brand-section, .getstarted-section{
-    padding: 50px 10%;
+/* Some common section style */
+.banner, .service-section, .brand-section, .brand-section, .getstarted-section{
+    padding: 100px 10%;
 }
 button{
     cursor: pointer;
 }
-/* common button and a tag's styles here. */
-.btn, button, a{
-    padding: 15px 30px !important;
+/* common button and <a> tag's styles here. */
+.btn, button, a, .btn{
+    padding: 15px 30px;
     font-weight: 900 !important;
      letter-spacing: .09em !important; 
      word-spacing: 1px !important;
@@ -38,7 +39,7 @@ button{
     border: 1px solid #118511;
     box-shadow: 1px 1px 4px 2px rgb(54, 53, 53);
     font-family: 'Raleway', sans-serif;
-    padding: 10px 20px;
+    
 transition: 1s;
 }
 
@@ -55,7 +56,7 @@ nav ul {
     justify-content: space-between;
     align-items: center;
 }
-
+/* headers user menue styles */
 .user-menue li, button {
     margin-left: 10px;
     font-weight: 900;
@@ -63,11 +64,12 @@ nav ul {
     border-bottom: 3px solid #1f971f;
     padding: 10px;
 }
-.banner,.services{
-  padding: 100px 10%;
+/* banner section styles */
+.banner{
+    padding: 50px 5% !important;
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-gap: 20px;
+  grid-gap: 30px;
 }
 .banner div{
     margin: 10px;
@@ -86,9 +88,18 @@ color: #118511;
 }
 .banner-txt h1{
     font-size: 50px;
-    margin: 10px;
-    font-weight: 1000;
-    
+    margin: 10px 0;
+    font-weight: 900;
+    text-align: left;
+}
+.banner-txt p{
+margin-top: 30px;
+margin-bottom: 30px;
+text-align: left;
+font-family: 'Acme', sans-serif;
+color: #3f3b3b;
+letter-spacing: 0.7px;
+word-spacing: 0.1em;
 }
 .banner-img img{
     width: 100%;
@@ -100,9 +111,10 @@ transform: scaleX(-1);
     justify-content:center;
     align-items:center;
 }
+/* reach section styles */
 .reach-customer{
     margin:20px 10px;
-    padding: 30px 20%;
+    padding: 30px 10%;
     background-color: #fff;
 
 }
@@ -133,6 +145,7 @@ transform: scaleX(-1);
     color: #ffffff;
     font-family: 'Acme', sans-serif;
 }
+/* service and customer h1 */
 .service-section h1, .customer-section h1{
     font-weight: 900;
     font-size: 40px;
@@ -140,6 +153,7 @@ transform: scaleX(-1);
     font-family: 'sans-serif';
 
 }
+/* service section styles */
 .service-section{
     background-color: #caeac7;
 }
@@ -159,6 +173,7 @@ transform: scaleX(-1);
 }
 .service-text{
     text-align: left;
+    color: #3f3b3b;
     font-family: 'Acme', sans-serif;
     padding-bottom: 40px;
     padding-left: 10px;
@@ -173,11 +188,15 @@ transform: scaleX(-1);
         padding: 10px 20px;      
           font-weight: bold;
 }
+/* customer-section styles */
+.customer-section{
+    margin-top: 90px;
+}
 .customer-container{
     display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 50px;
-        padding: 50px 10%;
+        padding: 100px 8%;
         margin-bottom: 20px;
 
 }
@@ -217,8 +236,9 @@ transform: scaleX(-1);
     font-size: 30px;
 
 }
+/* contact section styles */
 .contact-section{
-    margin: 40px 0;
+    margin: 50px 0;
 }
 .contact-area{
     padding: 20px 20%;
@@ -230,10 +250,12 @@ margin: 10px 0;
     font-weight:900;
     font-family:'sans-serif';
 }
+/* contact area and forms <a> styles */
 .contact-area .contact-form a{
     background-color: #1b8f1b;
         color: white;
         margin: 0 10px;
+        padding: 12px 25px !important;
         text-decoration: none;
         transition: 0.5s;
     }
@@ -249,6 +271,7 @@ margin: 10px 0;
     color: green;
 }
 .contact-form{
+    margin: 50px 0;
     display: flex;
     justify-content: center;
 }
@@ -260,6 +283,7 @@ margin: 10px 0;
     border-radius: 5px;
     border: 2px solid lightgray;
 }
+/* brand section styles */
 .brand-section{
 margin: 20px 0;
 }
@@ -268,8 +292,9 @@ margin: 20px 0;
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    padding: 50px 50px;
+    padding: 100px 50px;
 }
+/* get started section styles */
 .getstarted-section{
 display: flex;
     justify-content: center;
@@ -293,5 +318,29 @@ text-decoration: none;
 color: #4bab7d;
 background-color: white;
 border: 2px solid white;
+}
+/* footer section styles */
+footer{
+    padding: 50px 15%;
+   
+}
+.footer-container{
+    display: grid;
+        grid-template-columns: 2fr repeat(4, 1fr);
+        margin-bottom: 40px ;
+}
+.footer-container p{
+font-weight: 800;
+
+}
+.footer-inner{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    color: blue;
+    font-size: 15px;
+}
+.footer-hr{
+    border: 2px solid lightgray;
 }
 
