@@ -13,24 +13,31 @@ header {
 
 section {
     border: 1px solid red;
+    box-sizing: border-box !important;
 }
 div{
     border: 1px solid black;
+    box-sizing: border-box !important;
+}
+.banner, .service-section, .brand-section, .getstarted-section{
+    padding: 50px 10%;
 }
 button{
     cursor: pointer;
 }
-.btn{
+/* common button and a tag's styles here. */
+.btn, button, a{
     padding: 15px 30px !important;
-    font-weight: 700 !important;
     font-weight: 900 !important;
+     letter-spacing: .09em !important; 
+     word-spacing: 1px !important;
 }
 .link-btn{
- 
     background-color: #118511;
     color: white;
     border: 1px solid #118511;
-    box-shadow: 1.5px 1.5px 4px 2px rgb(54, 53, 53);
+    box-shadow: 1px 1px 4px 2px rgb(54, 53, 53);
+    font-family: 'Raleway', sans-serif;
     padding: 10px 20px;
 transition: 1s;
 }
@@ -133,12 +140,14 @@ transform: scaleX(-1);
     font-family: 'sans-serif';
 
 }
+.service-section{
+    background-color: #caeac7;
+}
 .service-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 50px;
-    padding: 50px 15%;
-background-color: #caeac7;
+    padding: 50px 10%;
 }
 .service-item img{
     width: 100%;
@@ -169,6 +178,7 @@ background-color: #caeac7;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 50px;
         padding: 50px 10%;
+        margin-bottom: 20px;
 
 }
 .customers1{
@@ -208,13 +218,13 @@ background-color: #caeac7;
 
 }
 .contact-section{
-    margin: 80px 0;
+    margin: 40px 0;
 }
 .contact-area{
     padding: 20px 20%;
 margin: 10px 0;
 }
-.contact-area h1{
+.contact-area h1, .brand-section .brand-header{
     font-size: 40px;
     text-align: center;
     font-weight:900;
@@ -223,10 +233,8 @@ margin: 10px 0;
 .contact-area .contact-form a{
     background-color: #1b8f1b;
         color: white;
-        font-weight: 800;
         margin: 0 10px;
         text-decoration: none;
-        padding: 10px 20px;
         transition: 0.5s;
     }
     
@@ -252,3 +260,38 @@ margin: 10px 0;
     border-radius: 5px;
     border: 2px solid lightgray;
 }
+.brand-section{
+margin: 20px 0;
+}
+.brand-logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 50px 50px;
+}
+.getstarted-section{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4bab7d;
+}
+.plan-container{
+    padding: 40px 50px;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+.plan-container h1{
+  margin-bottom: 50px;
+   color: white;
+   font-size: 70px;
+
+
+}
+.plan-container a{
+text-decoration: none;
+color: #4bab7d;
+background-color: white;
+border: 2px solid white;
+}
+
