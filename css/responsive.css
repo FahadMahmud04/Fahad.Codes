@@ -7,6 +7,7 @@ display: block;
     }
     .banner{
         grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1px;
     }
     .banner-img img {
 
@@ -25,6 +26,7 @@ display: block;
     }
     .service-container, .customer-container {
             grid-template-columns: repeat(1, 1fr);
+            grid-gap: 1px;
         }
         .customers1, .customers2, .customers3{
             height: 450px;
@@ -48,7 +50,7 @@ display: block;
                 }
                  .footer-container{
                      grid-template-columns: repeat(1,1fr);
-                     grid-gap: 30px;
+                     grid-gap: 20px;
                      text-align: center;
                  }
                  .footer-inner{
