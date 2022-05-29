@@ -1,0 +1,58 @@
+@media (max-width: 1050px) {
+    .user-menue{
+        display: none;
+    }
+    .hamburger{
+display: block;
+    }
+    .banner{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-img img {
+
+        width: 80%;
+    }
+    .banner-txt{
+        text-align: center;
+    }
+        .banner-txt h1 {
+            font-size: 70px;
+            text-align: center;
+        }
+    .banner-txt p{
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .service-container, .customer-container {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .customers1, .customers2, .customers3{
+            height: 450px;
+        }
+        .contact-form div{
+            text-align: center;
+        }
+                .contact-br {
+                    display: initial;
+                }
+                .brand-logos{
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .brand-logos img{
+                    margin-bottom: 40px;
+                }
+                .brand-section{
+                    padding-bottom: 250px; 
+                    padding-top: 50px;
+                }
+                 .footer-container{
+                     grid-template-columns: repeat(1,1fr);
+                     grid-gap: 30px;
+                     text-align: center;
+                 }
+                 .footer-inner{
+                     text-align: center;
+            flex-direction: column;
+                 }
+}
