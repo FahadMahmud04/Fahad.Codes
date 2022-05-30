@@ -129,6 +129,12 @@ display: block;
     }
 }
 @media (max-width:425px) {
+    .banner div .link-btn{
+        margin: 0;
+    }
+    .banner-txt h1{
+        font-size: 25px;
+    }
      .footer-container div{
          padding: 10px 10%;
          
