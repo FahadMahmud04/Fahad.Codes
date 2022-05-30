@@ -17,17 +17,17 @@ display: block;
     }
     .banner-img img {
 
-        width: 80%;
+        width: 90% !important;
     }
     .banner-txt{
         text-align: center;
     }
         .banner-txt h1 {
-            font-size: 70px;
+            font-size: 50px;
             text-align: center;
         }
     .banner-txt p{
-        font-size: 1.2em;
+        font-size: 1em;
         text-align: center;
     }
     .service-container{
@@ -57,13 +57,87 @@ display: block;
                     padding-bottom: 250px; 
                     padding-top: 50px;
                 }
+              
                  .footer-container{
                      grid-template-columns: repeat(1,1fr);
-                     grid-gap: 20px;
+                     grid-gap: 10px;
                      text-align: center;
                  }
                  .footer-inner{
                      text-align: center;
             flex-direction: column;
                  }
+}
+/* second media query */
+@media (max-width:600px) {
+    .banner{
+            padding: 5px 0% !important;
+    }
+    .banner-img img {
+            width: 100% !important;
+        }
+        .banner-txt{
+            margin: 5px;
+            padding: 0;
+        }
+                 .banner-txt h1 {
+                     font-size: 40px !important;
+                     text-align: center;
+                     padding: 0;
+                     margin: 0;
+                 }
+                 .reach-customer{
+                     padding: 5px 5%;
+                     margin: 5px;
+                 }
+                 .demo-btn{
+                     margin: 0;
+                 }
+                 .service-section{
+                     padding: 50px 5%;
+                 }
+    .customer-section{
+        margin: 50px 0px 0px 0px;
+    }
+    .customer-section h1{
+        margin: 5px;
+    }
+    .customer-container{
+        padding: 50px 5%;
+        margin: 0;
+    }
+    .contact-area{
+        margin: 0;
+        padding: 20px 20%;
+    }
+    .brand-section{
+        margin: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 300px;
+        padding-top: 0;
+    }
+    .brand-header{
+        margin: 5px;
+        padding: 0;
+    }
+    .brand-logos {
+        padding: 50px 5%;
+    }
+    .getstarted-section{
+        padding: 50px 5% ;
+    }
+}
+@media (max-width:425px) {
+     .footer-container div{
+         padding: 10px 10%;
+         
+     }
+     .footer-img{
+         padding: 5px 14%;
+     }
+     .footer-img img{
+         width:100% !important;
+     }
+    
 }
