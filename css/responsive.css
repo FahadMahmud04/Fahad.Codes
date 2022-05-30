@@ -134,6 +134,7 @@ display: block;
     }
     .banner-txt h1{
         font-size: 25px;
+text-align: center;
     }
      .footer-container div{
          padding: 10px 10%;
