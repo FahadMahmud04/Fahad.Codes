@@ -90,6 +90,9 @@ display: block;
      margin: 0;
 
  }
+   .banner-txt div .demo-btn {
+       margin: 20px 0 0 0;
+   }
                  .banner-txt h1 {
                      font-size: 40px !important;
                      text-align: center;
