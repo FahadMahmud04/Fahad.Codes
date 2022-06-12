@@ -309,7 +309,11 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1e201f;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.6)),
+    url("../images/istockphoto-1291971619-170667a.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .plan-container {
   padding: 40px 50px;
