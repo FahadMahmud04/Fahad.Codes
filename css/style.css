@@ -127,7 +127,7 @@ button {
   background-color: #fff;
 }
 .reach-content {
-  background-image: url("../images/recharge.jpg");
+  background-image: url("../images/annie-spratt-QckxruozjRg-unsplash.jpg");
   height: 500px;
   background-position: center;
   background-size: cover;
@@ -161,7 +161,7 @@ button {
 }
 /* service section styles */
 .service-section {
-  background-color: #68ebac;
+  background-color: #d3d7e4;
 }
 .service-container {
   display: grid;
@@ -276,8 +276,8 @@ button {
   font-size: 15px;
   color: green;
 }
-.c-br{
-    display: none;
+.c-br {
+  display: none;
 }
 .contact-form {
   margin: 50px 0;
@@ -309,7 +309,11 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1e201f;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.6)),
+    url("../images/istockphoto-1291971619-170667a.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .plan-container {
   padding: 40px 50px;
