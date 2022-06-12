@@ -127,7 +127,7 @@ button {
   background-color: #fff;
 }
 .reach-content {
-  background-image: url("../images/recharge.jpg");
+  background-image: url("../images/annie-spratt-QckxruozjRg-unsplash.jpg");
   height: 500px;
   background-position: center;
   background-size: cover;
@@ -161,7 +161,7 @@ button {
 }
 /* service section styles */
 .service-section {
-  background-color: #68ebac;
+  background-color: #d3d7e4;
 }
 .service-container {
   display: grid;
@@ -276,8 +276,8 @@ button {
   font-size: 15px;
   color: green;
 }
-.c-br{
-    display: none;
+.c-br {
+  display: none;
 }
 .contact-form {
   margin: 50px 0;
