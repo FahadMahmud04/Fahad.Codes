@@ -1,65 +1,84 @@
-@media (max-width: 1050px) {
-  nav #nav-img {
+@media (max-width: 1110px) {
+  nav #nav-header {
     display: flex;
     justify-content: left;
-    margin-right: 5px;
+    margin: 0px 5px 0px 0px;
     padding: 0;
   }
-  .user-menue {
-    display: none;
-  }
-  .hamburger {
-    display: block;
-  }
+
   .banner {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1px;
   }
+
   .banner-img img {
     width: 90% !important;
   }
+
   .banner-txt {
     text-align: center;
   }
+
   .banner-txt h1 {
     font-size: 50px;
     text-align: center;
   }
+
   .banner-txt p {
     font-size: 1em;
     text-align: center;
   }
-  .service-container {
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 30px;
+
+  .service-section {
+    padding: 50px 5%;
   }
+
+  .service-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 50px 10px;
+  }
+
+  .service-text {
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+
   .customer-container {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
   }
+
   .customers1,
   .customers2,
   .customers3 {
     height: 450px;
   }
-  .c-br{
-      display: initial;
+
+  .c-br {
+    display: initial;
   }
+
   .contact-form div {
     text-align: center;
   }
+
   .contact-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .brand-logos {
     flex-direction: column;
     align-items: center;
   }
+
   .brand-logos img {
     margin-bottom: 40px;
   }
+
   .brand-section {
     padding-bottom: 250px;
     padding-top: 50px;
@@ -70,23 +89,64 @@
     grid-gap: 10px;
     text-align: center;
   }
+
   .footer-inner {
     text-align: center;
     flex-direction: column;
   }
 }
+
+/* here is 1010 media queries  */
+
+@media (max-width: 1010px) {
+  .user-menue li {
+    margin: 5px;
+    font-size: 14px;
+  }
+
+}
+
+/*  here is 835px media queries  */
+
+@media (max-width: 835px) {
+
+  .user-menue {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger i {
+    font-size: 25px;
+  }
+
+  .service-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+}
+
 /* second media query */
 @media (max-width: 600px) {
+  #nav-header {
+    margin: 0;
+  }
+
   .banner {
     padding: 5px 0% !important;
   }
+
   .banner-img img {
     width: 100% !important;
   }
+
   .banner-txt {
     margin: 5px;
     padding: 0;
   }
+
   .banner-txt div {
     display: flex !important;
     justify-content: center !important;
@@ -97,39 +157,49 @@
   .banner-txt div .link-btn {
     margin: 0;
   }
+
   .banner-txt div .demo-btn {
     margin: 20px 0 0 0;
   }
+
   .banner-txt h1 {
     font-size: 40px !important;
     text-align: center;
     padding: 0;
     margin: 0;
   }
+
   .reach-customer {
     padding: 5px 5%;
     margin: 5px;
   }
+
   .banner-txt div .demo-btn {
     margin: 25px 0 0 0;
   }
+
   .service-section {
     padding: 50px 5%;
   }
+
   .customer-section {
     margin: 50px 0px 0px 0px;
   }
+
   .customer-section h1 {
     margin: 5px;
   }
+
   .customer-container {
     padding: 50px 5%;
     margin: 0;
   }
+
   .contact-area {
     margin: 0;
     padding: 20px 20%;
   }
+
   .brand-section {
     margin: 0;
     padding-left: 5%;
@@ -137,41 +207,62 @@
     padding-bottom: 300px;
     padding-top: 0;
   }
+
   .brand-header {
     margin: 5px;
     padding: 0;
   }
+
   .brand-logos {
     padding: 50px 5%;
   }
+
   .getstarted-section {
     padding: 50px 5%;
   }
 }
+
+/* here is 425 px media queries */
+
 @media (max-width: 425px) {
   .banner div .link-btn {
     margin: 0;
   }
+
   .banner-txt div {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
     flex-direction: column;
   }
+
   .banner-txt h1 {
-    font-size: 25px;
+    font-size: 25px !important;
     text-align: center;
   }
+
+  .banner-txt p {
+    font-size: 15px;
+  }
+
+  .reach-content .demo-btn {
+    margin: auto;
+  }
+
   .footer-container div {
     padding: 10px 10%;
   }
+
   .footer-img {
     padding: 5px 14%;
   }
+
   .footer-img img {
     width: 100% !important;
   }
-  .nav-img img {
-    width: 150px !important;
+
+  #nav-header li h1 {
+    font-size: 18px;
+    margin: 0;
   }
 }
