@@ -1,9 +1,23 @@
 body {
   margin: 0;
   padding: 0;
-  /* font-family: 'Acme', sans-serif; */
+  /* font-family: 'Acme', sans-serif;
+font-family: 'Amaranth', sans-serif;
+font-family: 'Arima', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Caveat', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Patua One', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Secular One', sans-serif; */
   font-family: "Raleway", sans-serif !important;
 }
+
 /* header styles */
 header {
   /* border: 1px solid blue; */
@@ -14,20 +28,24 @@ section {
   /* border: 1px solid red; */
   box-sizing: border-box !important;
 }
+
 div {
   /* border: 1px solid black; */
   box-sizing: border-box !important;
 }
+
 /* Some common section style */
 .banner,
 .service-section,
 .brand-section,
 .getstarted-section {
-  padding: 100px 10%;
+  padding: 100px 5%;
 }
+
 button {
   cursor: pointer;
 }
+
 /* common button and <a> tag's styles here. */
 .btn,
 button,
@@ -38,20 +56,28 @@ a,
   letter-spacing: 0.09em !important;
   word-spacing: 1px !important;
 }
+
 .link-btn {
   background-color: #118511;
   color: white;
   border: 1px solid #118511;
-  box-shadow: 1px 1px 4px 2px rgb(54, 53, 53);
-  font-family: "Raleway", sans-serif;
-
-  transition: 1s;
+  box-shadow: 1px 1px 2px 2px rgb(54, 53, 53);
+  font-family: 'Secular One', sans-serif;
+  border-radius: 5px;
 }
 
 .link-btn:hover {
-  border: 1px solid #ca0098;
-  background-color: #ca0098;
+  border: 1px solid #f7ab08;
+  background-color: #f7ab08;
   color: aliceblue;
+  box-shadow: none;
+  color: black;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+#nav-header {
+  font-family: "Secular One", sans-serif;
 }
 
 nav ul {
@@ -60,19 +86,31 @@ nav ul {
   justify-content: space-between;
   align-items: center;
 }
+
 .hamburger {
   display: none;
   margin-right: 5%;
 }
+
 /* headers user menue styles */
 .user-menue li,
 button {
   margin-left: 10px;
-  font-weight: 900;
+  font-weight: 700;
   margin-right: 35px;
   border-bottom: 3px solid #1f971f;
   padding: 10px;
+  font-family: 'Concert One', cursive;
+
 }
+
+.user-menue .link-btn {
+  font-family: 'Arima', cursive;
+  font-size: 18px;
+  padding: 10px 25px;
+  font-weight: 700;
+}
+
 /* banner section styles */
 .banner {
   padding: 50px 5% !important;
@@ -80,6 +118,7 @@ button {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
 }
+
 .banner div {
   margin: 10px;
   padding: 20px 10px;
@@ -88,44 +127,53 @@ button {
 .banner-txt .demo-btn {
   color: #118511;
   background-color: white;
+  font-size: 15px;
   border: 3px solid #118511;
 }
+
 .banner-txt {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .banner-txt h1 {
-  font-size: 50px;
+  font-size: 45px;
   margin: 10px 0;
   font-weight: 900;
   text-align: left;
+  font-family: cursive;
 }
+
 .banner-txt p {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: left;
-  font-family: "Acme", sans-serif;
+  font-family: cursive;
   color: #3f3b3b;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.5px;
   word-spacing: 0.1em;
 }
+
 .banner-img img {
   width: 100%;
   height: auto;
   transform: scaleX(-1);
 }
+
 .banner-img {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 /* reach section styles */
 .reach-customer {
   margin: 20px 10px;
   padding: 30px 10%;
   background-color: #fff;
 }
+
 .reach-content {
   background-image: url("../images/annie-spratt-QckxruozjRg-unsplash.jpg");
   height: 500px;
@@ -136,21 +184,26 @@ button {
   align-items: center;
   justify-content: center;
 }
+
 .reach-content .demo-btn {
   color: #118511;
+  font-family: 'Secular One', sans-serif;
   background-color: white;
   border: 3px solid #118511;
 }
+
 .reach-content .reach-inner {
   text-align: center;
   padding: 10px;
 }
+
 .reach-content h1 {
   font-size: 60px;
   font-weight: 800;
   color: #ffffff;
   font-family: "Acme", sans-serif;
 }
+
 /* service and customer h1 */
 .service-section h1,
 .customer-section h1 {
@@ -159,32 +212,39 @@ button {
   text-align: center;
   font-family: "sans-serif";
 }
+
 /* service section styles */
 .service-section {
   background-color: #d3d7e4;
 }
+
 .service-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
   padding: 50px 10%;
 }
+
 .service-item img {
   width: 100%;
 }
+
 .service-item {
   background-color: white;
   box-shadow: 3px 3px 10px rgb(71, 69, 69);
 }
+
 .service-text {
   text-align: left;
-  color: #3f3b3b;
-  font-family: "Acme", sans-serif;
+  color: #2e2b2b;
+  font-family: 'Montserrat', sans-serif;
   padding-bottom: 40px;
   padding-left: 10px;
   padding-right: 15px;
   padding-top: 10px;
+  font-weight: bold;
 }
+
 .service-text a {
   text-decoration: none;
   color: #118511;
@@ -193,10 +253,12 @@ button {
   padding: 10px 20px;
   font-weight: bold;
 }
+
 /* customer-section styles */
 .customer-section {
   margin-top: 90px;
 }
+
 .customer-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -204,6 +266,7 @@ button {
   padding: 100px 8%;
   margin-bottom: 20px;
 }
+
 .customers1 {
   background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.6)),
     url("../images/customers/customer1.jpg");
@@ -211,6 +274,7 @@ button {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .customers2 {
   background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.6)),
     url("../images/customers/customer2.jpg");
@@ -218,6 +282,7 @@ button {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .customers3 {
   background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.6)),
     url("../images/customers/customer3.jpg");
@@ -225,6 +290,7 @@ button {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .customers1,
 .customers2,
 .customers3 {
@@ -235,21 +301,26 @@ button {
   justify-content: baseline;
   align-items: flex-end;
 }
+
 .customer h2,
 .customer h4 {
   margin: 5px 5px;
 }
+
 .customer h2 {
   font-size: 30px;
 }
+
 /* contact section styles */
 .contact-section {
   margin: 50px 0;
 }
+
 .contact-area {
   padding: 20px 20%;
   margin: 10px 0;
 }
+
 .contact-area h1,
 .brand-section .brand-header {
   font-size: 40px;
@@ -257,6 +328,7 @@ button {
   font-weight: 900;
   font-family: "sans-serif";
 }
+
 /* contact area and forms <a> styles */
 .contact-area .contact-form a {
   background-color: #1b8f1b;
@@ -271,14 +343,17 @@ button {
   background-color: #ca0098;
   color: rgb(255, 255, 255);
 }
+
 .contact-area p {
   text-align: center;
   font-size: 15px;
   color: green;
 }
+
 .c-br {
   display: none;
 }
+
 .contact-form {
   margin: 50px 0;
   display: flex;
@@ -293,10 +368,12 @@ button {
   border-radius: 5px;
   border: 2px solid lightgray;
 }
+
 /* brand section styles */
 .brand-section {
   margin: 20px 0;
 }
+
 .brand-logos {
   display: flex;
   justify-content: space-between;
@@ -304,6 +381,7 @@ button {
   height: 50px;
   padding: 100px 50px;
 }
+
 /* get started section styles */
 .getstarted-section {
   display: flex;
@@ -315,26 +393,31 @@ button {
   background-position: center;
   background-size: cover;
 }
+
 .plan-container {
   padding: 40px 50px;
   text-align: center;
   font-family: "Acme", sans-serif;
 }
+
 .plan-container h1 {
   margin-bottom: 50px;
   color: white;
   font-size: 70px;
 }
+
 .plan-container a {
   text-decoration: none;
   color: #4bab7d;
   background-color: white;
   border: 2px solid white;
 }
+
 /* footer section styles */
 footer {
   padding: 50px 15%;
 }
+
 .footer-container {
   display: grid;
   grid-template-columns: 2fr repeat(4, 1fr);
@@ -342,18 +425,27 @@ footer {
   background-color: #2c2424;
   color: white;
 }
+
 .footer-container div {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 30px;
   padding-right: 20px;
 }
+
 .footer-container p {
   font-weight: 800;
 }
-.footer-img {
+
+.footer-header {
   background-color: white;
+  color: black;
+  font-family: "Secular One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .footer-inner {
   display: flex;
   justify-content: space-evenly;
@@ -361,6 +453,7 @@ footer {
   color: blue;
   font-size: 15px;
 }
+
 .footer-hr {
   border: 2px solid lightgray;
 }
