@@ -19,13 +19,9 @@ font-family: 'Secular One', sans-serif; */
 }
 
 /* header styles */
-header {
-  /* border: 1px solid blue; */
-  box-sizing: border-box;
-}
-
+header,
 section {
-  /* border: 1px solid red; */
+  /* border: 1px solid blue; */
   box-sizing: border-box !important;
 }
 
